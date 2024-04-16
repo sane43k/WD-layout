@@ -1,0 +1,36 @@
+.work-video-section {
+    background-color: #EEEFF1;
+}
+
+.work-video-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 100px auto;
+}
+
+.work-video-section .container .title {
+    margin: 0 0 50px;
+}
+
+.work-video-section .container .text-wrapper {
+    text-align: center;
+    max-width: 540px;
+    margin-bottom: 57px;
+}
+
+.work-video-section .container .content-wrapper {
+    width: 1110px;
+    height: 600px;
+    position: relative;
+}
+
+.work-video-section .container .content-wrapper .play-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}

@@ -1,0 +1,59 @@
+.about-me-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 540px;
+    gap: 50px;
+    padding: 0;
+    margin: 120px auto 100px;
+}
+
+.about-me-section .container .title {
+    margin: 0;
+}
+
+.about-me-section .container .text-wrapper {
+    text-align: center;
+}
+
+.about-me-section .content-wrapper {
+    width: 100%;
+    height: 250px;
+    background-color: #34547A;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-wrapper .content-wrapper__block {
+    display: flex;
+    gap: 20px;
+}
+
+.content-wrapper__block .content-wrapper__block__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content-wrapper__block .content-wrapper__block__item h4 {
+    color: #fff;
+    margin: 0;
+}
+
+.content-wrapper__block .content-wrapper__block__item span {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

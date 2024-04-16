@@ -1,0 +1,38 @@
+.portfolio-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-section .portfolio-project-item {
+    flex: 1 1 calc(100% / 4);
+    min-height: calc(100vh / 2);
+    position: relative;
+    cursor: pointer;
+}
+
+.portfolio-section .portfolio-project-item > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-section .portfolio-project-item::before {
+    content: url(../../assets/icons/eye_white_100x100.svg);
+    background-color: transparent;
+    position: absolute;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 84, 122, 0.80);
+    opacity: 0;
+}
+
+.portfolio-section .portfolio-project-item:hover::before {
+    visibility: visible;
+    opacity: 1;
+}

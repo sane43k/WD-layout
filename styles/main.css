@@ -1,0 +1,11 @@
+@import url(./common.css);
+@import url(./fonts.css);
+@import url(./buttons.css);
+@import url(./components/header.css);
+@import url(./components/about-me.css);
+@import url(./components/skills.css);
+@import url(./components/work-video.css);
+@import url(./components/portfolio.css);
+@import url(./components/partnership.css);
+@import url(./components/contact-us.css);
+@import url(./components/footer.css);

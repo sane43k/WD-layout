@@ -1,0 +1,30 @@
+.footer-section {
+    background-color: #34547A;
+}
+
+.footer-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-section .container .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-section .container .content-wrapper h4 {
+    color: #fff;
+    margin: 50px 0 0;
+}
+
+.footer-section .container .content-wrapper span {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.footer-section .container .image-wrapper {
+    display: flex;
+    gap: 20px;
+}

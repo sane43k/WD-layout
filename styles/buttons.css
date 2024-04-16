@@ -1,0 +1,35 @@
+button, .button {
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #34547A;
+    padding: 25px 40px;
+    min-width: 225px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.primary-btn {
+    color: #fff;
+    background-color: #34547A;
+}
+
+.primary-btn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.secondary-btn {
+    color: #000;
+    background-color: #fff;
+}
+
+.secondary-btn:hover {
+    color: #fff;
+    background-color: #34547A;
+}

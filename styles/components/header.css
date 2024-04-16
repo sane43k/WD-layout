@@ -1,0 +1,119 @@
+.header-section {
+    background-color: #EEEFF1;
+}
+
+.header-section .container {
+    height: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 870px) {
+    .header-section .container {
+        height: 120px;
+    }
+}
+
+.main-menu {
+    display: flex;
+}
+.burger-btn {
+    display: none;
+    max-width: 60px;
+}
+@media (max-width: 870px) {
+    .main-menu {
+        display: none;
+    }
+    .burger-btn {
+        display: flex;
+    }
+    @media (max-width: 390px)  {
+        .burger-btn {
+            padding: 10px;
+            font-size: 14px;
+            min-width: initial;
+        }
+    }
+}
+
+.main-menu__list {
+    display: flex;
+}
+
+.main-menu__list__item:not(:last-child) {
+    display: flex;
+    margin-right: 42px;
+}
+@media (max-width: 1290px) {
+    .main-menu__list__item:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+.main-menu__list__item .link {
+    display: block;
+    text-transform: uppercase;
+    line-height: 130%;
+}
+
+.main-menu__list__item .link:hover,
+.main-menu__list__item.active .link {
+    color: #34547A;
+    text-shadow: 1px 0px 0px #34547A;
+}
+
+.main-section {
+    background-color: #EEEFF1;
+}
+
+.main-section .container {
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    padding-top: 90px;
+    padding-bottom: 146px;
+}
+
+.main-section .picture-wrapper, 
+.main-section .content-wrapper {
+    width: calc(100% / 2 - 30px);
+    display: flex;
+}
+@media (max-width: 870px) {
+    .main-section .container {
+        flex-direction: column;
+    }
+    .main-section .picture-wrapper, 
+    .main-section .content-wrapper {
+        width: 100%;
+    }
+}
+ 
+.main-section .picture-wrapper {
+    align-items: center;
+    justify-content: center;
+}
+
+.main-section .content-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.main-section .content-wrapper h1 {
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.main-section .content-wrapper .text-wrapper {
+    text-align: left;
+    margin-bottom: 60px;
+    line-height: 164%;
+} 
+
+.main-section .content-wrapper .btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

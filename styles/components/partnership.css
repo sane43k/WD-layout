@@ -1,0 +1,11 @@
+.partnership-section {
+    margin: 72px 0 100px;
+}
+
+.partnership-section .container {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}

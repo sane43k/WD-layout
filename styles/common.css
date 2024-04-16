@@ -1,0 +1,119 @@
+* {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #727272;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 500;
+    color: #000;
+}
+
+h1,.h1-48pt {
+    font-size: 48px;
+}
+@media (max-width: 1090px) {
+    h1,.h1-48pt {
+        font-size: 32px;
+    }
+}
+@media (max-width: 870px) {
+    h1,.h1-48pt {
+        font-size: 28px;
+    }
+}
+
+
+h2,.h2-32pt {
+    font-size: 32px;
+}
+@media (max-width: 1090px) {
+    h2,.h2-32pt {
+        font-size: 28px;
+    }
+}
+@media (max-width: 870px) {
+    h2,.h2-32pt {
+        font-size: 21px;
+    }
+}
+
+h3,.h3-28pt {
+    font-size: 28px;
+}
+
+h4,.h4-21pt {
+    font-size: 21px;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
+ul li, ul ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+p:last-child {
+    margin: 0;
+}
+
+strong, b {
+    color: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: 700;
+}
+
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+}
+
+@media (max-width: 1090px) {
+
+}
+
+@media (max-width: 870px) {
+    
+}
+
+@media (max-width: 590px) {
+    
+}
+
+@media (max-width: 390px) {
+    
+}

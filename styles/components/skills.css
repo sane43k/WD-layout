@@ -1,0 +1,66 @@
+.skills-section .container {
+    display: flex;
+    gap: 20px;
+    padding-top: 102px;
+    padding-bottom: 102px;
+}
+
+.skills-section .container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.skills-section .image-wrapper img {
+    width: 100%;
+    max-width: 555px;
+    height: 100%;
+    align-items: center;
+}
+
+.skills-section .content-wrapper h2, 
+.skills-section .content-wrapper .progress-list {
+    align-items: flex-start;
+}
+
+.skills-section .content-wrapper .progress-list {
+    width: 100%;
+    max-width: 445px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-section .content-wrapper h2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.skills-section .progress-list .progress-list__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.skills-section .progress-list .progress-list__item h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.progress-list__item__bar {
+    background-color: #c4c4c4;
+    height: 4px;
+    width: 100%;
+    position: relative;
+}
+
+.progress-list__item__bar .progress {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    width: 30%;
+    background-color: #34547a;
+}
