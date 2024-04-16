@@ -1,2 +1,2 @@
 # WD website layout from Figma
-Made only using HTML and CSS 
+Made with HTML and CSS only
